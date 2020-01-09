@@ -1,38 +1,8 @@
+/* layout */
 body {
   text-align: center;
   margin: 0;
   font-family: 'Merriweather', serif;
-}
-.top-container{
-  background-color: #393e46;
-  padding-top: 100px;
-}
-.view-container {
-  background-color: #393e46;
-  position: relative;
-}
-
-.bottom-container {
-  background-color: #00adb5;
-  margin-top: 100px;
-}
-
-.headphones {
-  position: absolute;
-  right: 18.75rem;
-  top: 3rem;
-  width: 6.25rem;
-}
-
-.game-controller {
-  position: absolute;
-  left: 18.75rem;
-  bottom: 15.625rem;
-  width: 6.25rem;
-}
-
-.pubg {
-  width: 18.75rem;
 }
 
 h1 {
@@ -40,18 +10,133 @@ h1 {
   font-family: 'Dancing Script', cursive;
   color: #eeeeee;
 }
-
-.heading {
-  margin: 3.125rem auto 0 auto;
-  color: #eeeeee;
-}
-
 h2 {
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   color: #3282b8;
 }
+
+h3 {
+font-family: 'Montserrat', sans-serif;
+color: #0f4c75;
+font-size: 22px;
+}
+
+p {
+color: #40514E;
+margin-bottom: 40px;
+}
+
+hr {
+  border-style: dotted none none none;
+  width: 4%;
+  border-width: 6px;
+  border-color: #eeeeee;
+  margin: 100px auto 100px auto;
+}
+
+/* Top Container CSS */
+  .top-container {
+  background-color: #393e46;
+  padding-top: 100px;
+}
+.view-container {
+background-color: #393e46;
+position: relative;
+}
+
+.headphones {
+position: absolute;
+right: 18.75rem;
+top: 3rem;
+width: 6.25rem;
+}
+
+.heading {
+margin: 3.125rem auto 0 auto;
+color: #eeeeee;
+}
+
+.game-controller {
+position: absolute;
+left: 18.75rem;
+bottom: 15.625rem;
+width: 6.25rem;
+}
+
+.pubg {
+width: 18.75rem;
+}
+
+/* Middle-Container CSS*/
+
+.intro {
+width: 50%;
+margin: auto;
+line-height: 2;
+}
+
+/*Collaborations CSS*/
+
+.collab-row {
+width: 60%;
+margin: 100px auto 100px auto;
+text-align: left;
+line-height: 2;
+}
+.INS-collab {
+  float: left;
+  width: 200px;
+  border-radius: 100%;
+  margin: 40px 30px 40px 30px;
+}
+
+/*Events CSS*/
+.event-row {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.Prestige-Cup-1 {
+float: left;
+}
+
+.Prestige-Cup-2 {
+float: right;
+}
+
+iframe {
+  margin: 40px 30px 40px 30px;
+  border-radius: 5%;
+}
+
+/*Upcoming Events CSS*/
+.upcoming-row {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.dominator-league {
+  float: left;
+}
+
+/*Contact Us CSS*/
+.contact-message {
+  width: 40%;
+  margin: 30px auto 30px auto;
+  line-height: 2;
+}
+
+/*Bottom-Container CSS*/
+.bottom-container {
+  background-color: #00adb5;
+  margin-top: 100px;
+}
+
 .footer-img {
   width: 40px;
   margin: 30px;
@@ -59,23 +144,8 @@ h2 {
 .footer-link {
   text-decoration: none;
 }
-.Copyright {
-  padding-bottom: 20px;
-  margin: 0;
-}
-.logo {
-  position: fixed;
-  width: 9rem;
-}
-.logo-container {
-  text-align: left;
-}
 
-.intro {
-  width: 50%;
-  margin: auto;
-  line-height: 2;
-}
+/*Button CSS*/
 
 .btn {
   background: #11CDD4;
@@ -111,70 +181,120 @@ h2 {
   text-decoration: none;
 }
 
-hr {
-  border-style: dotted none none none;
-  width: 4%;
-  border-width: 6px;
-  border-color: #eeeeee;
-  margin: 100px auto 100px auto;
+.Copyright {
+padding-bottom: 20px;
+margin: 0;
 }
 
-.Prestige-Cup-1 {
-  float: left;
-}
-.Prestige-Cup-2 {
-  float: right;
-}
+@media only screen and (max-width:600px) {
+/*For Mobile Only*/
 
-p {
-  color: #40514E;
-  margin-bottom: 40px;
-}
+  /* Top Container CSS Mobile*/
+    .top-container {
+    background-color: #393e46;
+    padding-top: 60px;
+  }
+  .view-container {
+  background-color: #393e46;
+  position: relative;
+  }
 
-.event-row {
-  width: 75%;
-  margin: 100px auto 100px auto;
-  text-align: left;
+  .headphones {
+  position: absolute;
+  right: 2rem;
+  top: -2rem;
+  width: 6.25rem;
+  }
+
+  .heading {
+  margin: 3.125rem auto 0 auto;
+  color: #eeeeee;
+  }
+
+  .game-controller {
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+  width: 6.25rem;
+  }
+
+  .pubg {
+  width: 18.75rem;
+  }
+
+  /* Middle-Container CSS Mobile*/
+
+  .intro {
+  width: 80%;
+  margin: auto;
   line-height: 2;
-}
+  }
 
-iframe {
-  margin: 40px 30px 40px 30px;
-  border-radius: 5%;
-}
-.contact-message {
-  width: 40%;
-  margin: 30px auto 30px auto;
+  hr {
+    border-style: dotted none none none;
+    width: 10%;
+    border-width: 6px;
+    border-color: #eeeeee;
+    margin: 50px auto 50px auto;
+  }
+
+  /*Collaborations CSS*/
+
+  .collab-row {
+  width: 90%;
+  margin: 50px auto 50px auto;
+  text-align: center;
   line-height: 2;
+  }
+  .INS-collab {
+    float: none;
+    width: 200px;
+    border-radius: 100%;
+    margin: 0;
+  }
+
+  /*Events CSS*/
+  .event-row {
+    width: 90%;
+    margin: 50px auto 50px auto;
+    text-align: center;
+    line-height: 2;
+  }
+
+  .Prestige-Cup-1 {
+  float: none;
+  }
+
+  .Prestige-Cup-2 {
+  float: none;
+  }
+
+  iframe {
+    border-radius: 5%;
+  }
+
+  /*Upcoming Events CSS*/
+  .upcoming-row {
+    width: 90%;
+    margin: 50px auto 50px auto;
+    text-align: center;
+    line-height: 2;
+  }
+  .dominator-league {
+    float: none;
+  }
+
+  /*Contact Us CSS*/
+  .contact-message {
+    width: 70%;
+    margin: 30px auto 50px auto;
+    line-height: 2;
+  }
+
 }
 
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: #0f4c75;
-  font-size: 1.5rem;
-}
+@media only screen and (max-width:768px) {
+/*For Tablets Only*/
 
-.collab-row {
-  width: 75%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-  line-height: 2;
-}
 
-.upcoming-row {
-  width: 75%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-  line-height: 2;
-}
-
-.INS-collab {
-  float: left;
-  width: 200px;
-  border-radius: 100%;
-  margin: 40px 30px 40px 30px;
-}
-
-.dominator-league {
-  float: left;
 }
